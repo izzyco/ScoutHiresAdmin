@@ -31,8 +31,8 @@ export const App = () => {
     <BrowserRouter>
       <div className={classes.root}>
         <CssBaseline />
-        <Header />
-        <SideMenu />
+        {/* <Header />
+        <SideMenu /> */}
         <main className={classes.main}>
           <div className={classes.toolbar} />
           <Switch>
